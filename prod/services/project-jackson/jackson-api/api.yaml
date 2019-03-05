@@ -20,7 +20,7 @@ metadata:
   labels:
     app: jackson
 spec:
-  host: jackson-api
+  host: "jackson-api.default.svc.cluster.local"
   subsets:
   - name: stable
     labels:
@@ -41,17 +41,17 @@ spec:
     # Services in Kubernetes expose their endpoint using a common DNS pattern.
     # It looks like: <Service Name>.<Namespace Name>.svc.cluster.local
     # if not a FQDN then Istio assumes default namespace
-    - jackson-api
+    - "jackson-api.default.svc.cluster.local"
   http:
   - route:
     - destination:
-        host: jackson-api
+        host: "jackson-api.default.svc.cluster.local"
         subset: stable
         port: 
           number: 8080
       weight: 90
     - destination:
-        host: jackson-api
+        host: "jackson-api.default.svc.cluster.local"
         subset: canary
         port: 
           number: 8080
