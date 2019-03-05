@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-app-ui
-          image: "mtarng/jackson-ui:v1"
+          image: "mtarng/jackson-ui:v1.0"
           imagePullPolicy: Always
           resources:
             limits:
