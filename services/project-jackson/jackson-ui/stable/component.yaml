@@ -1,3 +1,0 @@
-name: "stable"
-generator: "helm"
-path: "../deployment-chart"
