@@ -75,5 +75,5 @@ spec:
           - name: JAEGER_AGENT_PORT
             value: "6831"
           imagePullSecrets:
-          - name: regcred # Must be created and configured into kubectl 
+          - name: saakhtatestsecret-jackson # Must be created and configured into kubectl 
 
