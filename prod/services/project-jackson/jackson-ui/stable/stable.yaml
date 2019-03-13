@@ -31,4 +31,6 @@ spec:
           - containerPort: 8080
             name: ui
           
+          imagePullSecrets:
+          - name: regcred # Must be created and configured into kubectl
 

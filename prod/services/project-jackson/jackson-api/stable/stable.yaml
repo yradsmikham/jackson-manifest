@@ -74,4 +74,6 @@ spec:
             value: "jaeger-agent.jaeger.svc.cluster.local"
           - name: JAEGER_AGENT_PORT
             value: "6831"
+          imagePullSecrets:
+          - name: regcred # Must be created and configured into kubectl 
 
