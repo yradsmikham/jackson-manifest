@@ -84,6 +84,6 @@ spec:
             value: "jaeger-agent.jaeger.svc.cluster.local"
           - name: JAEGER_AGENT_PORT
             value: "6831"
-          imagePullSecrets:
-          - name: saakhtatestsecret-jackson # Must be created and configured into kubectl 
+      imagePullSecrets:
+      - name: saakhtatestsecret-jackson # Must be created and configured into kubectl 
 
