@@ -41,6 +41,6 @@ spec:
           - containerPort: 8080
             name: ui
           
-          # imagePullSecrets:
-          # - name: saakhtatestsecret-jackson # Must be created and configured into kubectl
+          imagePullSecrets:
+          - name: saakhtatestsecret-jackson # Must be created and configured into kubectl
 
