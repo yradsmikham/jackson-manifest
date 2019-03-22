@@ -6,8 +6,8 @@ metadata:
   labels:
     name: api-deploy-stable
   name: api-deploy-stable
-imagePullSecrets:
-  - name: saakhtatestsecret-jackson
+# imagePullSecrets:
+#   - name: saakhtatestsecret-jackson
 ---
 # Source: spring-boot-app-api/templates/deployment.yaml
 apiVersion: apps/v1
@@ -84,6 +84,6 @@ spec:
             value: "jaeger-agent.jaeger.svc.cluster.local"
           - name: JAEGER_AGENT_PORT
             value: "6831"
-      imagePullSecrets:
-      - name: saakhtatestsecret-jackson # Must be created and configured into kubectl 
+      # imagePullSecrets:
+      # - name: saakhtatestsecret-jackson # Must be created and configured into kubectl 
 

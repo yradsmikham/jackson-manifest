@@ -6,8 +6,8 @@ metadata:
   labels:
     name: spring-boot-ui
   name: spring-boot-ui
-imagePullSecrets:
-  - name: saakhtatestsecret-jackson
+# imagePullSecrets:
+#   - name: saakhtatestsecret-jackson
 ---
 # Source: spring-boot-app-ui/templates/deployment.yaml
 apiVersion: apps/v1
@@ -41,6 +41,6 @@ spec:
           - containerPort: 8080
             name: ui
           
-      imagePullSecrets:
-      - name: saakhtatestsecret-jackson # Must be created and configured into kubectl
+      # imagePullSecrets:
+      # - name: saakhtatestsecret-jackson # Must be created and configured into kubectl
 
