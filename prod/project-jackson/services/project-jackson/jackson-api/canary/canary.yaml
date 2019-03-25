@@ -1,14 +1,4 @@
 ---
-# Source: spring-boot-app-api/templates/service-account.yaml
-apiVersion: v1
-kind: ServiceAccount
-metadata:
-  labels:
-    name: api-deploy-canary
-  name: api-deploy-canary
-# imagePullSecrets:
-#   - name: saakhtatestsecret-jackson
----
 # Source: spring-boot-app-api/templates/deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -84,6 +74,3 @@ spec:
             value: "jaeger-agent.jaeger.svc.cluster.local"
           - name: JAEGER_AGENT_PORT
             value: "6831"
-      # imagePullSecrets:
-      # - name: saakhtatestsecret-jackson # Must be created and configured into kubectl 
-
