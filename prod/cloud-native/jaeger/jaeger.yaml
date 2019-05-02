@@ -4,9 +4,11 @@ data:
   cassandra.contact-points: cassandra:9042
   cassandra.datacenter.name: dc1
   cassandra.keyspace: jaeger_v1_dc1
+  cassandra.password: password
   cassandra.port: "9042"
   cassandra.schema.mode: prod
   cassandra.servers: cassandra
+  cassandra.username: user
   collector.host-port: jaeger-collector:14267
   collector.http-port: "14268"
   collector.port: "14267"
@@ -27,7 +29,7 @@ metadata:
     app.kubernetes.io/instance: jaeger
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: jaeger
-    helm.sh/chart: jaeger-0.10.0
+    helm.sh/chart: jaeger-0.10.1
   name: jaeger
   namespace: jaeger
 
@@ -40,7 +42,7 @@ metadata:
     app.kubernetes.io/instance: jaeger
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: jaeger
-    helm.sh/chart: jaeger-0.10.0
+    helm.sh/chart: jaeger-0.10.1
   name: jaeger-agent
   namespace: jaeger
 spec:
@@ -76,7 +78,7 @@ metadata:
     app.kubernetes.io/instance: jaeger
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: jaeger
-    helm.sh/chart: jaeger-0.10.0
+    helm.sh/chart: jaeger-0.10.1
   name: jaeger-collector
   namespace: jaeger
 spec:
@@ -108,7 +110,7 @@ metadata:
     app.kubernetes.io/instance: jaeger
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: jaeger
-    helm.sh/chart: jaeger-0.10.0
+    helm.sh/chart: jaeger-0.10.1
   name: jaeger-query
   namespace: jaeger
 spec:
@@ -132,7 +134,7 @@ metadata:
     app.kubernetes.io/instance: jaeger
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: jaeger
-    helm.sh/chart: jaeger-0.10.0
+    helm.sh/chart: jaeger-0.10.1
   name: jaeger-agent
   namespace: jaeger
 spec:
@@ -188,7 +190,7 @@ metadata:
     app.kubernetes.io/instance: jaeger
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: jaeger
-    helm.sh/chart: jaeger-0.10.0
+    helm.sh/chart: jaeger-0.10.1
   name: jaeger-collector
   namespace: jaeger
 spec:
@@ -288,7 +290,7 @@ metadata:
     app.kubernetes.io/instance: jaeger
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: jaeger
-    helm.sh/chart: jaeger-0.10.0
+    helm.sh/chart: jaeger-0.10.1
   name: jaeger-query
   namespace: jaeger
 spec:
@@ -374,7 +376,7 @@ metadata:
     app.kubernetes.io/instance: jaeger
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: jaeger
-    helm.sh/chart: jaeger-0.10.0
+    helm.sh/chart: jaeger-0.10.1
   name: jaeger-spark
   namespace: jaeger
 spec:

@@ -14,7 +14,7 @@ kind: ConfigMap
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: alertmanager
     heritage: Tiller
     release: prometheus
@@ -984,7 +984,7 @@ kind: ConfigMap
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: server
     heritage: Tiller
     release: prometheus
@@ -997,7 +997,7 @@ kind: PersistentVolumeClaim
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: alertmanager
     heritage: Tiller
     release: prometheus
@@ -1017,7 +1017,7 @@ kind: PersistentVolumeClaim
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: server
     heritage: Tiller
     release: prometheus
@@ -1036,7 +1036,7 @@ kind: ServiceAccount
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: alertmanager
     heritage: Tiller
     release: prometheus
@@ -1049,7 +1049,7 @@ kind: ServiceAccount
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: kube-state-metrics
     heritage: Tiller
     release: prometheus
@@ -1062,7 +1062,7 @@ kind: ServiceAccount
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: node-exporter
     heritage: Tiller
     release: prometheus
@@ -1075,7 +1075,7 @@ kind: ServiceAccount
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: pushgateway
     heritage: Tiller
     release: prometheus
@@ -1088,7 +1088,7 @@ kind: ServiceAccount
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: server
     heritage: Tiller
     release: prometheus
@@ -1101,7 +1101,7 @@ kind: ClusterRole
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: kube-state-metrics
     heritage: Tiller
     release: prometheus
@@ -1173,7 +1173,7 @@ kind: ClusterRole
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: server
     heritage: Tiller
     release: prometheus
@@ -1214,7 +1214,7 @@ kind: ClusterRoleBinding
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: kube-state-metrics
     heritage: Tiller
     release: prometheus
@@ -1235,7 +1235,7 @@ kind: ClusterRoleBinding
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: server
     heritage: Tiller
     release: prometheus
@@ -1256,7 +1256,7 @@ kind: Service
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: alertmanager
     heritage: Tiller
     release: prometheus
@@ -1282,7 +1282,7 @@ metadata:
     prometheus.io/scrape: "true"
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: kube-state-metrics
     heritage: Tiller
     release: prometheus
@@ -1309,7 +1309,7 @@ metadata:
     prometheus.io/scrape: "true"
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: node-exporter
     heritage: Tiller
     release: prometheus
@@ -1336,7 +1336,7 @@ metadata:
     prometheus.io/probe: pushgateway
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: pushgateway
     heritage: Tiller
     release: prometheus
@@ -1360,7 +1360,7 @@ kind: Service
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: server
     heritage: Tiller
     release: prometheus
@@ -1384,7 +1384,7 @@ kind: DaemonSet
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: node-exporter
     heritage: Tiller
     release: prometheus
@@ -1400,7 +1400,7 @@ spec:
     metadata:
       labels:
         app: prometheus
-        chart: prometheus-8.10.2
+        chart: prometheus-8.10.3
         component: node-exporter
         heritage: Tiller
         release: prometheus
@@ -1443,7 +1443,7 @@ kind: Deployment
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: alertmanager
     heritage: Tiller
     release: prometheus
@@ -1460,7 +1460,7 @@ spec:
     metadata:
       labels:
         app: prometheus
-        chart: prometheus-8.10.2
+        chart: prometheus-8.10.3
         component: alertmanager
         heritage: Tiller
         release: prometheus
@@ -1521,7 +1521,7 @@ kind: Deployment
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: kube-state-metrics
     heritage: Tiller
     release: prometheus
@@ -1538,7 +1538,7 @@ spec:
     metadata:
       labels:
         app: prometheus
-        chart: prometheus-8.10.2
+        chart: prometheus-8.10.3
         component: kube-state-metrics
         heritage: Tiller
         release: prometheus
@@ -1559,7 +1559,7 @@ kind: Deployment
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: pushgateway
     heritage: Tiller
     release: prometheus
@@ -1576,7 +1576,7 @@ spec:
     metadata:
       labels:
         app: prometheus
-        chart: prometheus-8.10.2
+        chart: prometheus-8.10.3
         component: pushgateway
         heritage: Tiller
         release: prometheus
@@ -1603,7 +1603,7 @@ kind: Deployment
 metadata:
   labels:
     app: prometheus
-    chart: prometheus-8.10.2
+    chart: prometheus-8.10.3
     component: server
     heritage: Tiller
     release: prometheus
@@ -1620,7 +1620,7 @@ spec:
     metadata:
       labels:
         app: prometheus
-        chart: prometheus-8.10.2
+        chart: prometheus-8.10.3
         component: server
         heritage: Tiller
         release: prometheus
@@ -1643,7 +1643,7 @@ spec:
         - --web.console.libraries=/etc/prometheus/console_libraries
         - --web.console.templates=/etc/prometheus/consoles
         - --web.enable-lifecycle
-        image: prom/prometheus:v2.9.1
+        image: prom/prometheus:v2.9.2
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
