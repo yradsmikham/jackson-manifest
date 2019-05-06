@@ -29,7 +29,7 @@ metadata:
     app.kubernetes.io/instance: jaeger
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: jaeger
-    helm.sh/chart: jaeger-0.10.1
+    helm.sh/chart: jaeger-0.10.2
   name: jaeger
   namespace: jaeger
 
@@ -42,7 +42,7 @@ metadata:
     app.kubernetes.io/instance: jaeger
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: jaeger
-    helm.sh/chart: jaeger-0.10.1
+    helm.sh/chart: jaeger-0.10.2
   name: jaeger-agent
   namespace: jaeger
 spec:
@@ -78,7 +78,7 @@ metadata:
     app.kubernetes.io/instance: jaeger
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: jaeger
-    helm.sh/chart: jaeger-0.10.1
+    helm.sh/chart: jaeger-0.10.2
   name: jaeger-collector
   namespace: jaeger
 spec:
@@ -110,7 +110,7 @@ metadata:
     app.kubernetes.io/instance: jaeger
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: jaeger
-    helm.sh/chart: jaeger-0.10.1
+    helm.sh/chart: jaeger-0.10.2
   name: jaeger-query
   namespace: jaeger
 spec:
@@ -134,7 +134,7 @@ metadata:
     app.kubernetes.io/instance: jaeger
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: jaeger
-    helm.sh/chart: jaeger-0.10.1
+    helm.sh/chart: jaeger-0.10.2
   name: jaeger-agent
   namespace: jaeger
 spec:
@@ -190,7 +190,7 @@ metadata:
     app.kubernetes.io/instance: jaeger
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: jaeger
-    helm.sh/chart: jaeger-0.10.1
+    helm.sh/chart: jaeger-0.10.2
   name: jaeger-collector
   namespace: jaeger
 spec:
@@ -290,7 +290,7 @@ metadata:
     app.kubernetes.io/instance: jaeger
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: jaeger
-    helm.sh/chart: jaeger-0.10.1
+    helm.sh/chart: jaeger-0.10.2
   name: jaeger-query
   namespace: jaeger
 spec:
@@ -376,7 +376,7 @@ metadata:
     app.kubernetes.io/instance: jaeger
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: jaeger
-    helm.sh/chart: jaeger-0.10.1
+    helm.sh/chart: jaeger-0.10.2
   name: jaeger-spark
   namespace: jaeger
 spec:
