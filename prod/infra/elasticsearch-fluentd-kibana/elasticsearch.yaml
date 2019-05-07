@@ -466,6 +466,7 @@ spec:
       resources:
         requests:
           storage: 30Gi
+      storageClassName: managed-premium
 
 ---
 apiVersion: apps/v1beta1
@@ -586,4 +587,5 @@ spec:
       resources:
         requests:
           storage: 4Gi
+      storageClassName: managed-premium
 
