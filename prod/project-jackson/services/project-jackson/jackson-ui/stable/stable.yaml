@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-app-ui
-          image: "saakhtatestregistry.azurecr.io/jackson-ui:35-master-efdfd30"
+          image: "saakhtatestregistry.azurecr.io/jackson-ui:36-master-a150831"
           imagePullPolicy: Always
           resources:
             limits:
